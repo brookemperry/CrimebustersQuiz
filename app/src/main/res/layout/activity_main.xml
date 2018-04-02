@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.crimebustersquiz.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+
+       <ImageView
+           android:id="@+id/imageview1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="fitStart"
+           android:adjustViewBounds="true"
+           android:src="@drawable/scienceolympiad" />
+
+       <TextView
+           android:id="@+id/textview1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:paddingBottom="8dp"
+           android:text="@string/crimebusters_quiz"
+           android:background="#000000"
+           android:textSize="24sp"
+           android:textColor="#ffffff"/>
+
+
+
+       <TextView
+           android:id="@+id/q1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:text="@string/q1" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q1ammonia_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:text="@string/q1ammonia" />
+            <CheckBox
+                android:id="@+id/q1ho_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="@string/q1ho"/>
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <CheckBox
+               android:id="@+id/q1vinegar_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="8dp"
+               android:layout_marginLeft="16dp"
+               android:text="@string/q1vinegar"
+               android:layout_weight="1" />
+           <CheckBox
+               android:id="@+id/alcohol_checkbox1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:padding="8dp"
+               android:text="@string/q1rubbing_alcohol" />
+
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/q2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="16dp"
+           android:layout_marginRight="16dp"
+           android:padding="8dp"
+           android:text="@string/q2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/q2ho_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:text="@string/q2ho" />
+            <CheckBox
+                android:id="@+id/q2alcohol_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="@string/q2alcohol" />
+
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:id="@+id/q2vinegar_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:padding="8dp"
+               android:text="@string/q2vinegar"
+               android:layout_marginLeft="16dp"
+               android:textSize="12sp"
+               android:textColor="#000000"/>
+           <CheckBox
+               android:id="@+id/q2ammonia_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:padding="8dp"
+               android:text="@string/q1ammonia" />
+
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/q3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:text="@string/q3" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/q3ammonia_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:text="@string/q3ammonia" />
+            <CheckBox
+                android:id="@+id/q3lemon_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="@string/lemon" />
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <CheckBox
+               android:id="@+id/q3ho_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="16dp"
+               android:layout_weight="1"
+               android:padding="8dp"
+               android:text="@string/q3ho" />
+           <CheckBox
+               android:id="@+id/q3vinegar_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:padding="8dp"
+               android:text="@string/vinegar" />
+
+       </LinearLayout>
+
+       <ImageView
+           android:id="@+id/whorl"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_gravity="center_horizontal"
+           android:src="@drawable/whorl"
+		    android:scaleType="center"/>
+
+       <TextView
+           android:id="@+id/q4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:text="@string/q4" />
+       <EditText
+           android:id="@+id/q4whorlEditText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:inputType="text"/>
+
+       <ImageView
+           android:id="@+id/arch"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_gravity="center_horizontal"
+           android:paddingLeft="16dp"
+           android:src="@drawable/arch"
+		android:scaleType="center"/>
+
+	<TextView
+		android:id="@+id/q5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="16dp"
+       android:paddingTop="16dp"
+       android:paddingRight="16dp"
+       android:text="@string/q5"/>
+
+       <EditText
+           android:id="@+id/q5archEditText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:inputType="text"/>
+
+       <ImageView
+           android:id="@+id/loop"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_gravity="center_horizontal"
+           android:paddingLeft="16dp"
+           android:src="@drawable/loop"
+		android:scaleType="center"/>
+	<TextView
+		android:id="@+id/q6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingLeft="16dp"
+       android:paddingTop="16dp"
+       android:paddingRight="16dp"
+       android:text="@string/q6" />
+
+       <EditText
+           android:id="@+id/loopEditText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:inputType="text"/>
+
+       <TextView
+           android:id="@+id/q7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:text="@string/q7" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/q7yes_radiobutton"
+               android:text="@string/q7yes"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/q7no_radiobutton"
+                android:text="@string/q7no"/>
+       </RadioGroup>
+   </LinearLayout>
+
+       <TextView
+           android:id="@+id/q8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:text="@string/q8" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingLeft="16dp">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/q8yes_radiobutton"
+                   android:text="@string/q8yes"/>
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/q8no_radiobutton"
+                   android:text="@string/q8no"/>
+           </RadioGroup>
+       </LinearLayout>
+   </LinearLayout>
+
+</ScrollView>
