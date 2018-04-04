@@ -25,4 +25,7 @@
     <string name="q8yes">yes</string>
     <string name="q8no">no</string>
     <string name="q7no">no</string>
+    <string name="submit">Submit</string>
+    <string name="you_answered">You answered</string>
+    <string name="correct">correct out of 8.</string>
 </resources>
