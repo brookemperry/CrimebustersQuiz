@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox q1ho = (CheckBox)findViewById(R.id.q1ho_checkbox);
         q1ho.setChecked(false);
 
-        CheckBox q1alcohol = (CheckBox)findViewById(R.id.q1alcohol_checkbox1);
+        CheckBox q1alcohol = (CheckBox) findViewById(R.id.q1alcohol_checkbox);
         q1alcohol.setChecked(false);
 
         CheckBox q1vinegar = (CheckBox)findViewById(R.id.q1vinegar_checkbox);
@@ -179,6 +179,42 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox q2vinegar = (CheckBox)findViewById(R.id.q2vinegar_checkbox);
         q2vinegar.setChecked(false);
+
+        CheckBox q3ammonia = (CheckBox) findViewById(R.id.q3ammonia_checkbox);
+        q3ammonia.setChecked(false);
+
+        CheckBox q3ho = (CheckBox) findViewById(R.id.q3ho_checkbox);
+        q3ho.setChecked(false);
+
+        CheckBox q3vinegar = (CheckBox) findViewById(R.id.q3vinegar_checkbox);
+        q3vinegar.setChecked(false);
+
+        CheckBox q3lemon = (CheckBox) findViewById(R.id.q3lemon_checkbox);
+        q3lemon.setChecked(false);
+
+        EditText q4whorl = (EditText) findViewById(R.id.q4whorlEditText);
+        q4whorl.setText("");
+
+        EditText q5arch = (EditText) findViewById(R.id.q5archEditText);
+        q5arch.setText("");
+
+        EditText q6loop = (EditText) findViewById(R.id.q6loopEditText);
+        q6loop.setText("");
+
+        RadioButton q7yes = (RadioButton) findViewById(R.id.q7yes_radiobutton);
+        q7yes.setChecked(false);
+
+        RadioButton q7no = (RadioButton) findViewById(R.id.q7no_radiobutton);
+        q7no.setChecked(false);
+
+        RadioButton q8yes = (RadioButton) findViewById(R.id.q8yes_radiobutton);
+        q8yes.setChecked(false);
+
+        RadioButton q8no = (RadioButton) findViewById(R.id.q8no_radiobutton);
+        q8no.setChecked(false);
+
+
+
 
 
     }
