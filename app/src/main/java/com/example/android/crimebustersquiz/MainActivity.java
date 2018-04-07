@@ -106,11 +106,24 @@ public class MainActivity extends AppCompatActivity {
         int final_score =  calculateScore(q1ammonia, q1ho, q1vinegar, q1alcohol, q2ammonia, q2ho, q2vinegar, q2alcohol,
          q3ho, q3lemon, q3ammonia, q3vinegar, q4whorl, q5arch, q6loop, q7no, q8yes);
 
+        if (final_score == 8) {
 
-        Toast.makeText(getApplicationContext(),getString(R.string.you_answered) + final_score + getString(R.string.correct), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.Crimebuster) + final_score + getString(R.string.correct), Toast.LENGTH_LONG).show();
 
+        }
+
+        if (final_score <= 7 && final_score >= 6) {
+
+            Toast.makeText(getApplicationContext(), getString(R.string.almost) + final_score + getString(R.string.try_again), Toast.LENGTH_LONG).show();
+
+        }
+
+        if (final_score <= 5) {
+
+            Toast.makeText(getApplicationContext(), getString(R.string.go_back) + final_score + getString(R.string.out_of_8), Toast.LENGTH_LONG).show();
+
+        }
         return final_score;
-
     }
 
 // Calculate score
