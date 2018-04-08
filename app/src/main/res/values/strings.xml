@@ -30,8 +30,12 @@
     <string name="correct">&#160;correct out of 8.</string>
     <string name="reset">Reset</string>
     <string name="Crimebuster">Congratulations, Crimebuster! You scored&#160;</string>
-    <string name="try_again">&#160;correctlty out of 8. Try again!</string>
+    <string name="try_again">&#160;correctly out of 8. Try again!</string>
     <string name="almost">Almost! You answered&#160;</string>
     <string name="go_back">Go back and review your study materials. You answered&#160;</string>
     <string name="out_of_8">&#160;correctly out of 8.</string>
+    <string name="logo">Science Olympiad logo</string>
+    <string name="whorl_fingerprint">Whorl fingerprint</string>
+    <string name="arch_fingerprint">Arch fingerprint</string>
+    <string name="loop_fingerprint">Loop fingerprint</string>
 </resources>
