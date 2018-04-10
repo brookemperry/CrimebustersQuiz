@@ -14,8 +14,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,13 +36,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#000000"
-                    android:paddingBottom="8dp"
+                    android:paddingBottom="@dimen/title_bottom"
                     android:paddingLeft="@dimen/standard_margin"
                     android:paddingRight="@dimen/standard_margin"
                     android:paddingTop="@dimen/standard_margin"
                     android:text="@string/crimebusters_quiz"
                     android:textColor="#ffffff"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/title_text_size" />
 
             </LinearLayout>
 
@@ -51,8 +51,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -80,21 +80,21 @@
                         android:layout_marginLeft="@dimen/standard_margin"
                         android:layout_marginStart="@dimen/standard_margin"
                         android:layout_weight="1"
-                        android:paddingBottom="@dimen/standard_margin"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/standard_margin">
 
                         <CheckBox
                             android:id="@+id/q1ammonia_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q1ammonia" />
 
                         <CheckBox
                             android:id="@+id/q1ho_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q1ho" />
 
                     </LinearLayout>
@@ -103,21 +103,21 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingBottom="@dimen/standard_margin"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/standard_margin">
 
                         <CheckBox
                             android:id="@+id/q1vinegar_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q1vinegar" />
 
                         <CheckBox
                             android:id="@+id/q1alcohol_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q1rubbing_alcohol" />
 
                     </LinearLayout>
@@ -131,8 +131,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -146,7 +146,7 @@
                     android:layout_marginLeft="@dimen/standard_margin"
                     android:layout_marginRight="@dimen/standard_margin"
                     android:layout_marginTop="@dimen/standard_margin"
-                    android:padding="8dp"
+                    android:padding="@dimen/small_padding"
                     android:text="@string/q2" />
 
                 <LinearLayout
@@ -159,22 +159,22 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/standard_margin"
                         android:layout_marginStart="@dimen/standard_margin"
-                        android:paddingBottom="@dimen/standard_margin"
                         android:layout_weight="1"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/standard_margin">
 
                         <CheckBox
                             android:id="@+id/q2ammonia_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q1ammonia" />
 
                         <CheckBox
                             android:id="@+id/q2ho_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q2ho" />
 
                     </LinearLayout>
@@ -183,14 +183,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingBottom="@dimen/standard_margin"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/standard_margin">
 
                         <CheckBox
                             android:id="@+id/q2vinegar_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q2vinegar"
                             android:textColor="#000000" />
 
@@ -198,7 +198,7 @@
                             android:id="@+id/q2alcohol_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q2alcohol" />
 
                     </LinearLayout>
@@ -212,8 +212,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -247,14 +247,14 @@
                             android:id="@+id/q3ammonia_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q3ammonia" />
 
                         <CheckBox
                             android:id="@+id/q3lemon_checkbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/lemon" />
 
                     </LinearLayout>
@@ -271,7 +271,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/standard_margin"
                             android:layout_marginStart="@dimen/standard_margin"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/q3ho" />
 
                         <CheckBox
@@ -280,7 +280,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/standard_margin"
                             android:layout_marginStart="@dimen/standard_margin"
-                            android:padding="8dp"
+                            android:padding="@dimen/checkbox_padding"
                             android:text="@string/vinegar" />
 
                     </LinearLayout>
@@ -294,8 +294,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -313,8 +313,8 @@
 
                 <ImageView
                     android:id="@+id/whorl"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="@dimen/standard_margin"
                     android:contentDescription="@string/whorl_fingerprint"
@@ -335,8 +335,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -354,8 +354,8 @@
 
                 <ImageView
                     android:id="@+id/arch"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="@dimen/standard_margin"
                     android:contentDescription="@string/arch_fingerprint"
@@ -376,8 +376,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -395,8 +395,8 @@
 
                 <ImageView
                     android:id="@+id/loop"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="@dimen/standard_margin"
                     android:contentDescription="@string/loop_fingerprint"
@@ -417,8 +417,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -438,11 +438,11 @@
                 <RadioGroup
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/standard_margin"
                     android:paddingEnd="@dimen/standard_margin"
                     android:paddingLeft="@dimen/standard_margin"
                     android:paddingRight="@dimen/standard_margin"
-                    android:paddingStart="@dimen/standard_margin"
-                    android:paddingBottom="@dimen/standard_margin">
+                    android:paddingStart="@dimen/standard_margin">
 
                     <RadioButton
                         android:id="@+id/q7yes_radiobutton"
@@ -466,8 +466,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:cardElevation="2dp">
+            android:layout_margin="@dimen/card_margin"
+            app:cardElevation="@dimen/card_elevation">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -486,11 +486,11 @@
                 <RadioGroup
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/standard_margin"
                     android:paddingEnd="@dimen/standard_margin"
                     android:paddingLeft="@dimen/standard_margin"
                     android:paddingRight="@dimen/standard_margin"
-                    android:paddingStart="@dimen/standard_margin"
-                    android:paddingBottom="@dimen/standard_margin">
+                    android:paddingStart="@dimen/standard_margin">
 
                     <RadioButton
                         android:id="@+id/q8yes_radiobutton"
@@ -522,11 +522,11 @@
             android:id="@+id/reset_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/standard_margin"
-            android:layout_marginStart="@dimen/standard_margin"
-            android:layout_marginRight="@dimen/standard_margin"
-            android:layout_marginEnd="@dimen/standard_margin"
             android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin"
             android:onClick="resetAnswers"
             android:text="@string/reset" />
 
