@@ -22,14 +22,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <!-- Photo by Ousa Chea on Unsplash https://unsplash.com/photos/gKUC4TMhOiY -->
                 <ImageView
+
                     android:id="@+id/imageview1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:contentDescription="@string/logo"
                     android:scaleType="fitStart"
-                    android:src="@drawable/scienceolympiad" />
+                    android:src="@drawable/microscopes" />
 
                 <TextView
                     android:id="@+id/textview1"
@@ -40,7 +42,7 @@
                     android:paddingLeft="@dimen/standard_margin"
                     android:paddingRight="@dimen/standard_margin"
                     android:paddingTop="@dimen/standard_margin"
-                    android:text="@string/crimebusters_quiz"
+                    android:text="@string/forensics_quiz"
                     android:textColor="#ffffff"
                     android:textSize="@dimen/title_text_size" />
 
@@ -311,6 +313,7 @@
                     android:paddingTop="@dimen/standard_margin"
                     android:text="@string/q4" />
 
+                <!--By Metrónomo - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=28576300-->
                 <ImageView
                     android:id="@+id/whorl"
                     android:layout_width="@dimen/image_size"
@@ -318,7 +321,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="@dimen/standard_margin"
                     android:contentDescription="@string/whorl_fingerprint"
-                    android:scaleType="center"
+                    android:scaleType="fitXY"
                     android:src="@drawable/whorl" />
 
                 <EditText
@@ -326,6 +329,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/standard_margin"
+                    android:hint="@string/type"
                     android:inputType="text" />
 
             </LinearLayout>
@@ -352,6 +356,9 @@
                     android:paddingTop="@dimen/standard_margin"
                     android:text="@string/q5" />
 
+                <!--By NIST - NIST.Transferred from en.wikipedia to Commons
+                by User:Zscout370 using CommonsHelper., Public Domain,
+                https://commons.wikimedia.org/w/index.php?curid=15171899-->
                 <ImageView
                     android:id="@+id/arch"
                     android:layout_width="@dimen/image_size"
@@ -366,6 +373,7 @@
                     android:id="@+id/q5archEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="@string/type"
                     android:layout_margin="@dimen/standard_margin"
                     android:inputType="text" />
 
@@ -393,6 +401,8 @@
                     android:paddingTop="@dimen/standard_margin"
                     android:text="@string/q6" />
 
+                <!--By Metrónomo - Own work, CC BY-SA 4.0,
+                https://commons.wikimedia.org/w/index.php?curid=28492734-->
                 <ImageView
                     android:id="@+id/loop"
                     android:layout_width="@dimen/image_size"
@@ -407,6 +417,7 @@
                     android:id="@+id/q6loopEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="@string/type"
                     android:layout_margin="@dimen/standard_margin"
                     android:inputType="text" />
 

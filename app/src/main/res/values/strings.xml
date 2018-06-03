@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Crimebusters Quiz</string>
-    <string name="crimebusters_quiz">Crimebusters Quiz</string>
+    <string name="app_name">Forensics Quiz</string>
+    <string name="forensics_quiz">Forensics Quiz</string>
     <string name="q1">1. Which liquids do not bubble when introduced to iodine?</string>
     <string name="q1ammonia">Ammonia</string>
     <string name="q1vinegar">Vinegar</string>
@@ -29,13 +29,14 @@
     <string name="you_answered">You answered&#160;</string>
     <string name="correct">&#160;correct out of 8.</string>
     <string name="reset">Reset</string>
-    <string name="Crimebuster">Congratulations, Crimebuster! You scored&#160;</string>
+    <string name="Crimebuster">Congratulations, Scientist! You scored&#160;</string>
     <string name="try_again">&#160;correctly out of 8. Try again!</string>
     <string name="almost">Almost! You answered&#160;</string>
     <string name="go_back">Go back and review your study materials. You answered&#160;</string>
     <string name="out_of_8">&#160;correctly out of 8.</string>
-    <string name="logo">Science Olympiad logo</string>
+    <string name="logo">App logo</string>
     <string name="whorl_fingerprint">Whorl fingerprint</string>
     <string name="arch_fingerprint">Arch fingerprint</string>
     <string name="loop_fingerprint">Loop fingerprint</string>
+    <string name="type">fingerprint type?</string>
 </resources>
